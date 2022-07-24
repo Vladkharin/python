@@ -703,5 +703,38 @@
 #     r.close()
 #     print('Я все записал')
 
+# r = open('file.txt', 'a', encoding='utf-8')
+# try:
+#     r.write('something' + '\n')
+#     10/0
+#     r.write('что-то')   
+# finally:
+#     r.close()
+
+# print('Все нормально')
+
+# with open('file.txt', 'a', encoding='utf-8') as r:
+#     r.write('something' + '\n')
+#     r.write('chto-to')
+
+# print('All Good')
 
 
+import newmod
+
+print(newmod.newf(7))
+
+# import sys
+
+# print(sys.path)
+
+# from newmod import newf
+
+# x = newmod.newf(4)
+
+# print(x)
+
+# print(newf(4))
+
+# print(dir())
+# print(help(newmod.newf))
