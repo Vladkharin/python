@@ -578,18 +578,130 @@
 
 # print(zz, yy)
 
-import os 
+# import os 
 
 
 
-z = open('text2.txt', encoding='utf-8')
-r = open('text.txt', encoding='utf-8')
+# z = open('text2.txt', encoding='utf-8')
+# r = open('text.txt', encoding='utf-8')
 
-r1 = set(z.read().split())
-z1 = set(r.read().split())
-r.close()
-z.close()
+# r1 = set(z.read().split())
+# z1 = set(r.read().split())
+# r.close()
+# z.close()
 
 
-new = r1.difference(z1)
-print(new)
+# new = r1.difference(z1)
+# print(new)
+
+# import os
+
+# s = 'Let\'s \n write \n string as "s"'
+# url = r'https:\www.youtube.com\new'
+
+# # os.walk('D:\\')
+
+
+# # x = 'C:\\Users\\PyHS\\Desltop'
+
+# print(s)
+# print(url)
+# # print(s)
+
+# s = 'stroka texta'
+
+# # print('str' in s)
+
+# # s.upper()
+
+# print(s.upper())
+# print(s.lower())
+# print(s.capitalize()) # Первая буква в верхним регистре
+# print(s)
+
+# path = 'C:/Users/PyHS/Desktop/s.py'
+
+# path1 = path.replace('/', '\\')
+
+# print(path1)
+
+# r = path1.split('\\')
+
+# print(r[-1])
+
+# q = open('text.txt', encoding='utf-8' )
+# r = q.read()
+
+# list_znk = ['(', ')', '"', "'", '\n']
+
+# for i in list_znk:
+#     r = r.replace(i, '')
+
+# print(r)
+
+# r1 = r.split()
+
+# print(r1)
+
+# new_text = ' '.join(r1)
+
+# print(new_text)
+
+# enter = input('Your name: ')
+# name = 'Pytyhon'
+
+
+# s = 'Hello %s' %enter
+
+# s1 = 'Hello {1}, i AM {0}'.format(enter, 'Python')
+# var = 'storka'
+# s2 = f'Hello {enter}, i AM {len(var)}'
+# print(s)
+# print(s1)
+# print(s2)
+# while True:
+#     try:
+#         enter = float(input('Введите число '))
+#         print(100/enter)
+
+#     except ValueError:
+#         print('Вы ввели не число')
+#     else:
+#         print('Пользователь молодец, с первого раза')
+#     finally:
+#         print('Вывод finally')
+
+
+# print('Все нормально')
+
+# import sys
+
+# url_list = ['text.txt', 'text2.txt', 'text25.txt', 'text3.txt']
+
+# list_defect = []
+# list_info = []
+
+# try:
+#     for url in url_list:
+#         try:
+#             r = open(url, encoding='utf-8')
+#             list_info.append(r.read())
+#             print('здесь')
+#             # print(list_info)
+#         except Exception:
+#             list_defect.append(url)
+#             print('тут')
+#             # print(list_defect)
+
+#             sys.exit()
+#             continue    
+# finally:
+#     r = open('save.txt', 'a', encoding='utf-8')
+#     for i in list_info:
+#         r.write(i)
+#     r.write(str(list_defect))
+#     r.close()
+#     print('Я все записал')
+
+
+
